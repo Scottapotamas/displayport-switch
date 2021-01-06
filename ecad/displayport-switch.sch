@@ -1911,7 +1911,7 @@ DC0-
 Text Label 8200 2100 0    50   ~ 0
 DC1+
 Text Label 8200 2200 0    50   ~ 0
-DC0+
+DC1-
 Text Label 8200 2400 0    50   ~ 0
 DC2+
 Text Label 8200 2500 0    50   ~ 0
@@ -1947,7 +1947,7 @@ _DC0-
 Text Label 9500 2000 0    50   ~ 0
 _DC1+
 Text Label 9500 2200 0    50   ~ 0
-_DC0+
+_DC1-
 Text Label 9500 2300 0    50   ~ 0
 _DC2+
 Text Label 9500 2500 0    50   ~ 0
