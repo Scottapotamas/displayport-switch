@@ -1648,60 +1648,8 @@ Wire Wire Line
 	13750 4450 12950 4450
 Wire Wire Line
 	13750 4350 12950 4350
-$Comp
-L appli_connector_wurth:CONN_01X03 P4
-U 1 1 607899FC
-P 13800 2050
-F 0 "P4" H 13800 1800 50  0000 C CNN
-F 1 "CONN_01X03" V 13950 2050 50  0000 C CNN
-F 2 "Applidyne_Connector_Wurth:61300311121" V 13975 2050 50  0001 C CNN
-F 3 "http://www.farnell.com/cad/2124416.pdf" H 13800 1700 50  0001 C CNN
-F 4 "WURTH ELECTRONIK" H 13800 1600 60  0001 C CNN "manf"
-F 5 "61300311121" H 13800 1500 60  0001 C CNN "manf#"
-F 6 "Element 14" H 13800 1400 60  0001 C CNN "Supplier"
-F 7 "2356154" H 13800 1325 60  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/wurth-elektronik/61300311121/header-2-54mm-pin-tht-vertical/dp/2356154" H 13800 1225 60  0001 C CNN "Supplier URL"
-F 9 "0.12" H 13800 1125 60  0001 C CNN "Supplier Price"
-F 10 "1" H 13800 1025 60  0001 C CNN "Supplier Price Break"
-	1    13800 2050
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	13600 2050 13400 2050
-Wire Wire Line
-	13400 2050 13400 1700
-$Comp
-L appli_power:+3.3V #PWR025
-U 1 1 6079C7F7
-P 13400 1700
-F 0 "#PWR025" H 13400 1550 50  0001 C CNN
-F 1 "+3.3V" H 13415 1873 50  0000 C CNN
-F 2 "" H 13400 1700 50  0001 C CNN
-F 3 "" H 13400 1700 50  0001 C CNN
-	1    13400 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13600 2150 13400 2150
-Wire Wire Line
-	13400 2150 13400 2300
-$Comp
-L appli_power:GND #PWR026
-U 1 1 607AF94F
-P 13400 2300
-F 0 "#PWR026" H 13400 2050 50  0001 C CNN
-F 1 "GND" H 13405 2127 50  0000 C CNN
-F 2 "" H 13400 2300 50  0001 C CNN
-F 3 "" H 13400 2300 50  0001 C CNN
-	1    13400 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13600 1950 13200 1950
 Text Notes 14050 3650 2    79   ~ 16
 CONTROL HEADER
-Text Notes 13050 1250 0    79   ~ 16
-EXTERNAL SWITCH\nCONNECTOR
 Text GLabel 10450 6900 2    50   Input ~ 0
 INPUT_SELECT
 Text GLabel 10450 7300 2    50   Input ~ 0
@@ -1710,16 +1658,12 @@ Text GLabel 10450 7000 2    50   Input ~ 0
 AUX_SEL
 Text GLabel 12950 4450 0    50   Output ~ 0
 AUX_SEL
-Text GLabel 12950 4550 0    50   Output ~ 0
-ENABLE
 Text GLabel 12950 4350 0    50   Output ~ 0
+ENABLE
+Text GLabel 12950 4550 0    50   Output ~ 0
 INPUT_SELECT
-Text GLabel 13200 1950 0    50   Output ~ 0
-INPUT_SELECT
-Text Notes 14350 2200 0    50   ~ 0
-Allows external switch to\npull high, or low for selection.\n\n3V output for opt selection LED.
 Text Notes 14300 4800 0    50   ~ 0
-Internal header for overriding behaviour.\n\n5V pin is intended as supply.\n3V is output.\nIO is 3V level.
+Header to supply power/control.\n\n5V pin is intended as supply.\n3V is output.\nIO is 3V level.
 Wire Wire Line
 	13150 4800 13150 4850
 Connection ~ 13150 4850
