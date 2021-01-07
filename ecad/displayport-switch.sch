@@ -1292,44 +1292,6 @@ F 3 "" H 12600 6750 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	12600 6850 13000 6850
-$Comp
-L appli_capacitor:10u_X7R_3216M C18
-U 1 1 603D2508
-P 12600 6950
-F 0 "C18" H 12678 6885 50  0000 L CNN
-F 1 "10u_X7R_3216M" H 12678 6805 35  0000 L CNN
-F 2 "Applidyne_Capacitor:CAPC3216X135N" V 12715 6850 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/415311.pdf" V 12740 6850 20  0001 C CNN
-F 4 "muRata" V 12790 6850 20  0001 C CNN "manf"
-F 5 "GRM31CR71E106KA12L" V 12815 6850 20  0001 C CNN "manf#"
-F 6 "Element14" V 12840 6850 20  0001 C CNN "Supplier"
-F 7 "1735546" V 12865 6850 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/murata/grm31cr71e106ka12l/cap-mlcc-x7r-10uf-25v-1206/dp/1735546" V 12890 6850 20  0001 C CNN "Supplier URL"
-F 9 "0.24" V 12915 6850 20  0001 C CNN "Supplier Price"
-F 10 "1" V 12940 6850 20  0001 C CNN "Supplier Price Break"
-	1    12600 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L appli_capacitor:10u_X7R_3216M C19
-U 1 1 603D2B6B
-P 14250 6950
-F 0 "C19" H 14328 6885 50  0000 L CNN
-F 1 "10u_X7R_3216M" H 14328 6805 35  0000 L CNN
-F 2 "Applidyne_Capacitor:CAPC3216X135N" V 14365 6850 20  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/415311.pdf" V 14390 6850 20  0001 C CNN
-F 4 "muRata" V 14440 6850 20  0001 C CNN "manf"
-F 5 "GRM31CR71E106KA12L" V 14465 6850 20  0001 C CNN "manf#"
-F 6 "Element14" V 14490 6850 20  0001 C CNN "Supplier"
-F 7 "1735546" V 14515 6850 20  0001 C CNN "Supplier Part No"
-F 8 "http://au.element14.com/murata/grm31cr71e106ka12l/cap-mlcc-x7r-10uf-25v-1206/dp/1735546" V 14540 6850 20  0001 C CNN "Supplier URL"
-F 9 "0.24" V 14565 6850 20  0001 C CNN "Supplier Price"
-F 10 "1" V 14590 6850 20  0001 C CNN "Supplier Price Break"
-	1    14250 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14250 6950 14250 6850
 Connection ~ 14250 6850
 Wire Wire Line
 	14250 6850 14550 6850
@@ -1956,4 +1918,42 @@ Text Label 9500 2600 0    50   ~ 0
 _DC3+
 Text Label 9500 2800 0    50   ~ 0
 _DC3-
+$Comp
+L appli_capacitor:4u7_X5R_1608M C19
+U 1 1 5FF939F2
+P 14250 6950
+F 0 "C19" H 14328 6885 50  0000 L CNN
+F 1 "4u7_X5R_1608M" H 14328 6805 35  0000 L CNN
+F 2 "Applidyne_Capacitor:CAPC1608X90N" V 14365 6850 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2291921.pdf" V 14390 6850 20  0001 C CNN
+F 4 "TDK" V 14440 6850 20  0001 C CNN "manf"
+F 5 "C1608X5R1C475K080AC" V 14465 6850 20  0001 C CNN "manf#"
+F 6 "Element14" V 14490 6850 20  0001 C CNN "Supplier"
+F 7 "2211173" V 14515 6850 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/tdk/c1608x5r1c475k080ac/cap-mlcc-x5r-4-7uf-16v-0603/dp/2211173" V 14540 6850 20  0001 C CNN "Supplier URL"
+F 9 "0.179" V 14565 6850 20  0001 C CNN "Supplier Price"
+F 10 "100" V 14590 6850 20  0001 C CNN "Supplier Price Break"
+	1    14250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L appli_capacitor:4u7_X5R_1608M C18
+U 1 1 5FF94204
+P 12600 6950
+F 0 "C18" H 12678 6885 50  0000 L CNN
+F 1 "4u7_X5R_1608M" H 12678 6805 35  0000 L CNN
+F 2 "Applidyne_Capacitor:CAPC1608X90N" V 12715 6850 20  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2291921.pdf" V 12740 6850 20  0001 C CNN
+F 4 "TDK" V 12790 6850 20  0001 C CNN "manf"
+F 5 "C1608X5R1C475K080AC" V 12815 6850 20  0001 C CNN "manf#"
+F 6 "Element14" V 12840 6850 20  0001 C CNN "Supplier"
+F 7 "2211173" V 12865 6850 20  0001 C CNN "Supplier Part No"
+F 8 "http://au.element14.com/tdk/c1608x5r1c475k080ac/cap-mlcc-x5r-4-7uf-16v-0603/dp/2211173" V 12890 6850 20  0001 C CNN "Supplier URL"
+F 9 "0.179" V 12915 6850 20  0001 C CNN "Supplier Price"
+F 10 "100" V 12940 6850 20  0001 C CNN "Supplier Price Break"
+	1    12600 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14250 6850 14250 6950
 $EndSCHEMATC
